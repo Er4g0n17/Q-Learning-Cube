@@ -3,8 +3,8 @@
 Cube.py is the Rubik's cube implementation. Only permutations and edge orientations are supported for now. Some librairies are needed to be installed to use the program.
 Cube2x2.py is the 2x2 Rubik's cube implementation.
 
-Rtable.py creates the q-table with the corresponding reward for each state and action. Need to put tables as None to create them.
-Rtable2x2.py creates the reward tables for the corner orientation step and the final step where we solve the permutation.
+Rtable.py creates the q-table with the corresponding reward for each state and action. Need to put tables as None to create them. 
+Rtable2x2.py creates the reward tables for the corner orientation step and the final step where we solve the permutation. To create the tables, one needs to create a folder named 2x2_tables to store them and set the variables start_RtableCO and start_RtableCP as None.
 
 
 Qtable-Step2.py creates the q-tables for Step 2.
